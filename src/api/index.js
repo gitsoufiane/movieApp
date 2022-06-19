@@ -7,9 +7,8 @@ export const URL = {
     movielist: 'genre/movie/list',
     tvshowList: 'genre/tv/list',
   },
-  movie: {
-    list: 'movie/list',
-    detail: (id) => `movie/${id}`,
+  search: {
+    movie: 'search/movie',
   },
 };
 
